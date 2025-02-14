@@ -399,6 +399,13 @@ body {
     border: 1px solid #088178;
 }
 
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
 #banner3 .banner-box {
     display: flex;
     flex-direction: column;
@@ -410,6 +417,14 @@ body {
     background-size: cover;
     background-position: center;
     padding: 20px;
+}
+
+#banner3 .banner-box2 {
+    background-image: url("imgs/banners/b7.jpg");
+}
+
+#banner3 .banner-box3 {
+    background-image: url("imgs/banners/b8.jpg");
 }
 
 #banner3 h2 {
